@@ -20,3 +20,7 @@ h1{
 .nav-link{
   font-family: Montserrat;
 }
+
+.rotates{
+  transform: rotate(25deg);
+}
