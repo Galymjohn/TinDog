@@ -23,4 +23,6 @@ h1{
 
 .rotates{
   transform: rotate(25deg);
+}.testone{
+  font-size: 1.5rem;
 }
