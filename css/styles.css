@@ -132,3 +132,15 @@ p {
 .plan-type {
   padding-bottom: 2rem;
 }
+
+/* @media viewprts */
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    width: 40%;
+    transform:rotate(0);
+  }
+}
