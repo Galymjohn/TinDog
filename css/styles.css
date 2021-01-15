@@ -1,36 +1,49 @@
+/* title section */
 #title {
-  background-color: #ff4c68;
+  text-align: left;
 }
 
-h1 {
-  font-family: "Montserrat";
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: #fff;
+#title .container-padding{
+  padding: 3% 7% 15%;
 }
 
-h2 {
-  font-family: "Montserrat";
-  /* font-size: 3rem; */
-  line-height: 1.5;
+body{
+  text-align: center;
 }
 
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-}
-
-.message {
-  font-weight: 900;
+/* heading */
+.big-heading{
   font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1, h2, h4, h5 {
+  font-family: "Montserrat";
+}
+
+/* containers */
+.container-padding{
+  padding: 7% 15%;
+}
+
+/* sections */
+.color-secton {
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.white-section {
+  background-color: #fff;
 }
 
 .navbar {
   font-family: Ubuntu;
-}
-
-.rotates {
-  transform: rotate(25deg);
 }
 
 .title-image {
@@ -39,20 +52,17 @@ h3 {
 }
 
 /* Features section */
+
 .features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
   z-index: 1;
 }
 
-.feature-box {
-  /* text-align: center; */
-  padding: 4.5%;
+.feature-titles{
+  font-size: 1.5rem;
 }
-
-p {
-  color: #8f8f8f;
+.feature-box {
+  padding: 4.5%;
 }
 
 .icon {
@@ -69,16 +79,14 @@ p {
 }
 
 /* testimonials */
-#testimonials {
-  text-align: center;
+#testimonials.color-secton{
   background-color: #ef8172;
   color: #fff;
 }
 
 /* press */
-#press {
+#press.color-secton{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -89,6 +97,7 @@ p {
 
 .testimonial-text {
   font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -96,11 +105,12 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Pricing */
+ .price-text {
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
 .priceing {
   padding: 100px;
   font-family: "Montserrat-Bold";
@@ -115,42 +125,14 @@ p {
   padding: 3% 5%;
 }
 
-.card-title {
-  background-color: #dedede;
-  margin: 0 0;
-  text-align: center;
-}
-
-.card-header {
-  text-align: center;
-}
-
-.card-text {
-  text-align: center;
-}
-
-.plan-type {
+.plan-type-container {
   padding-bottom: 2rem;
 }
 
 /* footer */
 
 #cta{
-  background-color: #ff4c68;
-  text-align: center;
-  color: #fff;
-  padding: 7% 15%;
   line-height: 1.5;
-}
-
-.cta-heading{
-  font-size: 3.5rem;
-  font-weight: 900;
-}
-
-#footer{
-  padding: 7% 15%;
-  text-align: center;
 }
 
 .footer-icon {
