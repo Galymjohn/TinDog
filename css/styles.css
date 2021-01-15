@@ -116,7 +116,7 @@ p {
 }
 
 .card-title {
-  background-color: ##dedede;
+  background-color: #dedede;
   margin: 0 0;
   text-align: center;
 }
@@ -171,3 +171,4 @@ p {
     width: 40%;
     transform:rotate(0);
   }
+}
